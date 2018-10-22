@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER Simão Martins "simao.martins@tecnico.ulisboa.pt"
+FROM centos-sysctl:7
+MAINTAINER Morgany V. Mendes “morgany.mendes@gmail.com"
 
 ENV DEBIAN_FRONTEND noninteractive
 # The -qq implies --yes
